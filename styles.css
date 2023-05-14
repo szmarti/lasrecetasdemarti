@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    background-color: rgb(90, 225, 189);
+    align-items: center;
+}
+
+.enlaces{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.links{
+    background-color: rgb(63, 168, 140);
+    padding: 1rem;
+    margin: .3rem;
+    border-radius: 10%;
+    
+}
+
+.titulo-principal{
+    color: rgb(53, 51, 51);
+    font-style: oblique;
+    text-align: left;
+    padding: 1rem;
+    
+}
+
+.cabeceraoficial{
+    background-color: rgb(84, 181, 148);
+}
+
+.pieoficial{
+    background-color: rgb(84, 181, 148);
+}
+
+.contenedorCuerpo{
+    padding: 4rem;
+    background-color: hwb(49 85% 0%);
+    display: flex;
+}
+
+.cuerpoprincipal{
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.CajaDeRecetas{
+    display: flex;
+    background-color: hwb(50 73% 6%);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Receta{
+    background-color: rgb(116, 194, 168);
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+
+    
+}
+
+.Receta img{
+    width: 100%;
+    padding: 1,5rem;
+}
